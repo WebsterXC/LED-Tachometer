@@ -1,0 +1,14 @@
+This folder contains third party packages that the LED Tachometer requires to function.
+
+CREDIT:
+
+CAN BUS COMMUNICATION: Toni Klopfenstein @ SparkFun Electronics.
+--The CAN Bus shield was purchased from SparkFun.com and it's their in-house
+model. The Canbus class as well as the MCP2551 controller logic files came from
+their library on github. They supply a couple of examples as well. These files
+handle most of the communication between the vehicle's CAN bus and my Arduino.
+
+https://github.com/sparkfun/SparkFun_CAN-Bus_Arduino_Library
+
+SDControl: Relies on two Arduino-supplied libraries, SD and SPI. These files
+are included for reference.
